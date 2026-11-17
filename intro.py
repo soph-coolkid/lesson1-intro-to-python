@@ -15,6 +15,7 @@ else:
 feel=input("how are you today")
 if(feel==" bad"):
     print("oh thats not good hope you get beter")
+    
 if(feel==" good"):
     print("thats amazing")
     what=input("whats so good abote today")
@@ -30,11 +31,10 @@ else:
 sport=input("do you play any sports")
 if(sport==" yes"):
     sp=input("what sport")
-    if(sp== " soccer"):
-        print("peopel who play soccer are often mean")
-        per=input("are you")
-    if(per==" no"):
-        print("lier")
+    if(sp== " socer"):
+        per=input("peopel who play socer are often mean are you")
+        if(per==" no"):
+         print("lier")
     else:
         print("can't belive you emit that i'm prod")    
 else:
